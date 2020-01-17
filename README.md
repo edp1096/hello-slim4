@@ -26,6 +26,12 @@ $ php .\composer.phar require slim/slim:^4.0
 $ php .\composer.phar require slim/psr7
 ```
 
+or
+
+```powershell
+$ php .\composer.phar install
+```
+
 ## Intelephense indexing
 When intelephense show error which is not an error
 ```
