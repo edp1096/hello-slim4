@@ -72,3 +72,31 @@ F1 > intelephense: Index workspace
 
 ...
 ```
+
+
+## VS-Code / REST Client
+### GET
+```http
+### get
+GET http://localhost:10081/hello/world
+```
+### POST
+```http
+### post
+POST http://localhost:10081/trypost
+Content-Type: application/x-www-form-urlencoded
+
+name=doctorwho
+&description=timelord
+```
+### POST + JSON
+```http
+### post json
+POST http://localhost:10081/trypostjson
+content-type: application/json
+
+{
+    "name": "Dr. Who",
+    "description":"Time Lord"
+}
+```

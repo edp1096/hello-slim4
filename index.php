@@ -17,5 +17,7 @@ $app->addErrorMiddleware($displayErrorDetails, $logErrors, $logErrorDetails);
 
 $app->get('/', $front);
 $app->get('/hello/{name}', $hello);
+$app->post('/trypost', $trypost);
+$app->post('/trypostjson', $trypostjson);
 
 $app->run();
